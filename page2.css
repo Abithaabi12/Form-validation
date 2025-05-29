@@ -1,0 +1,60 @@
+body {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195));
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#form {
+    width: 400px;
+    margin: 20vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: slategrey;
+}
+
+form button {
+    background-color: slategrey;
+    color: white;
+    border: 1px solid slategrey;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+/* Correcting the typo and fixing the border color issue */
+.input-group .error {
+    color: rgb(242, 18, 18);
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.input-group.success input {
+    border-color: #0cc477; /* Green color for success */
+}
+
+.input-group.error input {
+    border-color: rgb(242, 18, 18); /* Red color for error */
+}
